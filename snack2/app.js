@@ -20,6 +20,19 @@ const soccerLeague = [
 console.log(soccerLeague)
 
 // funzione per generare numeri
-function randomGenerator () {
+function randomGenerator() {
     return (Math.floor(Math.random() * 20))
 }
+
+// sostituzione degli zero con numeri randomici
+for (let i = 0; i < soccerLeague.length; i++) {
+    let soccerTeam = soccerLeague[i]
+    console.log(soccerTeam)
+
+    for (let key in soccerTeam) {
+        if(soccerTeam[key] === 0){
+            soccerTeam[key] = randomGenerator()
+        }
+    }
+}
+console.log(soccerLeague)
