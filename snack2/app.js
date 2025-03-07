@@ -17,3 +17,9 @@ const soccerLeague = [
         foulPlaySuffer: 0,
     },
 ]
+console.log(soccerLeague)
+
+// funzione per generare numeri
+function randomGenerator () {
+    return (Math.floor(Math.random() * 20))
+}
