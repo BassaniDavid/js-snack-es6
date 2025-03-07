@@ -17,8 +17,6 @@ const soccerLeague = [
         foulPlaySuffer: 0,
     },
 ]
-console.log('array di default')
-console.log(soccerLeague)
 
 // funzione per generare numeri
 function randomGenerator() {
